@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>krist</title>
+</head>
+
+<body>
+    <header>
+        <section class="logotip">
+            <img src="img/logo.svg" class="logo">
+        </section>
+
+        <section class="nav">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Our Story</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+        </section>
+
+        <section class="icon">
+            <a href="#"><img src="img/лупа.png" alt="" width="30px"></a>
+            <a href="#"><img src="img/сердце.png" alt="" width="30px"></a>
+            <a href="#"><img src="img/покупки.png" alt="" width="30px"></a>
+        </section>
+
+        <a href="./login.html"><button class="login">Login</button></a>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img src="img/banner.jpg" alt="banner" class="banner">
+        </section>
+
+        <section class="categories">
+            <h2>Shop by Categories</h2>
+            <article class="categories_conteiner">
+                <div>
+                    <picture>
+                        <img src="img/Casual Wear.jpg" class="cover">
+                    </picture>
+                    <button class="collection">Casual Wear</button>
+                </div>
+
+                <div>
+                    <picture>
+                        <img src="img/Western Wear.jpg" class="cover">
+                        <button class="collection">Western Wear</button>
+                    </picture>
+                </div>
+
+                <div>
+                    <picture>
+                        <img src="img/Ethnic Wear.png" class="cover">
+                        <button class="collection">Ethnic Wear</button>
+                    </picture>
+                </div>
+
+                <div>
+                    <picture>
+                        <img src="img/Kids Wear.webp" class="cover">
+                        <button class="collection">Kids Wear</button>
+                    </picture>
+                </div>
+            </article>
+        </section>
+
+        <section class="bestseller">
+            <h2>Our Bestseller</h2>
+
+            <label for="filter">Filter by Category:</label>
+            <select id="filter" class="filter_product">
+                <option value="all">All</option>
+                <option value="electronics">Electronics</option>
+                <option value="jewelery">Jewelry</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="women's clothing">Women's Clothing</option>
+            </select>
+
+            <article class="bestseller_conteiner">
+            </article>
+            <button class="load_more">Load More</button>
+        </section>
+
+        <form class="form_product">
+            <section class="product_banner">
+                <img src="img/form.png" class="product_banner">
+                <img src="img/logo.svg" class="product_logo">
+            </section>
+
+            <section class="add_product">
+                <h2>Product Add Form</h2>
+
+                <label for="name">Name Product</label>
+                <input type="text" id="name" placeholder="Name Your Product" class="name_product">
+                <br>
+                <label for="product_price">Product Price</label>
+                <input type="number" id="product_price" placeholder="Enter the price of the product"
+                    class="price_product">
+                <br>
+                <label for="description">Description</label>
+                <textarea name="description" id="description" class="description_product"></textarea>
+
+                <article class="categories_plan">
+                    <h4>Categories</h4>
+                    <select name="plan" class="categories_product">
+                        <option value="categories">Select product category</option>
+                        <option value="man">Men's clothing</option>
+                        <option value="woman">Women's clothing</option>
+                        <option value="kids">Children's clothing</option>
+                    </select>
+                </article>
+                <button class="add_btn">Add Product</button>
+            </section>
+        </form>
+
+        <footer>
+            <section class="contacts">
+                <h2>Contacts for communication</h2>
+                <a href="tel:+79999999999">+7(999)999-99-99</a>
+                <a href="mailto: email@.ru">email@.ru</a>
+            </section>
+
+            <section class="information">
+                <h2>Information</h2>
+                <a href="">My Account</a>
+                <a href="">Login</a>
+                <a href="">My Card</a>
+                <a href="">My Wishlist</a>
+                <a href="">Checkout</a>
+            </section>
+
+            <section class="service">
+                <h2>Service</h2>
+                <a href="">About Us</a>
+                <a href="">Careers</a>
+                <a href="">Delivery Information</a>
+                <a href="">Privaty Policy</a>
+                <a href="">Terms & Conditions</a>
+            </section>
+
+            <section class="subcribe">
+                <h2>Subcribe</h2>
+                <p>Enter your email below to be the first to know about new collections and product launches.</p>
+
+                <input type="email" placeholder="    Your Email" class="email">
+            </section>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

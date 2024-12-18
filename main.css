@@ -1,0 +1,495 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    height: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Jost';
+    padding-left: 20px;
+}
+
+.icon a {
+    margin-left: 20px;
+
+}
+
+header button {
+    margin-left: 40px;
+}
+
+.login {
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: rgb(255, 255, 255);
+    border: 0;
+    font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: auto;
+    height: 800px;
+}
+
+.categories {
+    padding: 100px 150px;
+    text-align: left;
+}
+
+.categories h2 {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 40px;
+    margin-left: 70px;
+    padding-bottom: 50px;
+}
+
+.categories_conteiner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.categories picture img {
+    width: 250px;
+    height: 350px;
+}
+
+.collection {
+    position: relative;
+    bottom: 60px;
+    right: 3px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Jost';
+    font-size: 17px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bestseller {
+    padding: 10px 230px 150px 230px;
+}
+
+.bestseller h2 {
+    font-family: 'Jost';
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.bestseller_conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.bestseller_conteiner picture {
+    height: 850px;
+}
+
+.bestseller_conteiner picture img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 5px;
+    width: 270px;
+    height: 300px;
+}
+
+picture h4 {
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    width: 300px;
+}
+
+picture p {
+    font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    width: 270px;
+}
+
+.delete_btn {
+    width: 270px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.904);
+    margin-top: 20px;
+    font-family: 'Jost';
+}
+
+.load_more {
+    width: 270px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 19px;
+    color:  rgba(0, 0, 0, 0.904);
+    background-color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Jost';
+    margin-left: 600px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000f1;
+    padding: 100px 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts h2 {
+    font-family: 'Jost';
+    color: #ffffff;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Jost';
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information h2 {
+    font-family: 'Jost';
+    color: #ffffff;
+}
+
+.information a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Jost';
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service h2 {
+    font-family: 'Jost';
+    color: #ffffff;
+}
+
+.service a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Jost';
+}
+
+.subcribe h2 {
+    font-family: 'Jost';
+    color: #ffffff;
+}
+
+.subcribe p {
+    font-family: 'Jost';
+    color: #ffffff;
+}
+
+.subcribe input {
+    background-color: #1d1d1d;
+    width: 450px;
+    height: 50px;
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/* login.html */
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.login_logo {
+    position: relative;
+    left: 100px;
+    bottom: 860px;
+}
+
+.form_conteiner {
+    margin-left: 200px;
+}
+
+.form_conteiner h2 {
+    font-family: 'Jost';
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.form_conteiner p {
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.form_conteiner label {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Jost';
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.form_conteiner input {
+    width: 445px;
+    height: 15px;
+    top: 24px;
+    padding: 16px 16px 17px 16px;
+    gap: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.form_conteiner input::placeholder {
+    font-family: 'Jost';
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+
+.login_btn {
+    width: 482px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.904);
+    margin-top: 20px;
+    font-family: 'Jost';
+}
+
+.form_conteiner a {
+    color: black;
+    font-family: 'Jost';
+    font-size: 18px;
+    padding-left: 160px;
+
+}
+
+
+
+
+
+
+
+/* new_account */
+.new_account {
+    display: flex;
+    align-items: center;
+}
+
+.account_logo {
+    position: relative;
+    left: 100px;
+    bottom: 960px;
+}
+
+.account_conteiner {
+    margin-left: 200px;
+}
+
+.account_conteiner h2 {
+    font-family: 'Jost';
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.account_conteiner p {
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.account_conteiner label {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Jost';
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.account_conteiner input {
+    width: 445px;
+    height: 15px;
+    top: 24px;
+    padding: 16px 16px 17px 16px;
+    gap: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.account_conteiner input::placeholder {
+    font-family: 'Jost';
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+
+.account_btn {
+    width: 482px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.904);
+    margin-top: 20px;
+    font-family: 'Jost';
+}
+
+
+
+
+/* add_product */
+form {
+    display: flex;
+    align-items: center;
+}
+
+.product_logo {
+    position: relative;
+    right: 750px;
+    /* left: 100px; */
+    bottom: 900px;
+}
+
+.add_product {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.add_product h2 {
+    font-family: 'Jost';
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.add_product label {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Jost';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.add_product input {
+    width: 445px;
+    height: 15px;
+    top: 24px;
+    padding: 16px 16px 17px 16px;
+    gap: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.add_product input::placeholder {
+    font-family: 'Jost';
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+
+.form_product textarea {
+    width: 472px;
+    height: 45px;
+    border-radius: 15px;
+    border: 2px solid rgb(67, 67, 67);
+    font-size: 15px;
+    font-family: 'Jost';
+}
+
+.categories_plan h4 {
+    font-family: 'Jost';
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.categories_plan select {
+    width: 480px;
+    height: 52px;
+    top: 24px;
+    padding: 16px 16px 16px 16px;
+    gap: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(67, 67, 67);
+}
+
+select option {
+    font-size: 15px;
+}
+
+.add_btn {
+    width: 482px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.904);
+    margin-top: 20px;
+    font-family: 'Jost';
+}
